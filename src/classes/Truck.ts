@@ -47,17 +47,19 @@ class Truck extends Vehicle {
     }
 
   // TODO: Implement the tow method from the AbleToTow interface
-  tow(vehicle: Truck ): void {
+  tow(vehicle: Truck | Motorbike | Car ): void {
+    
     // TODO: Get the make an model of the vehicle if it exists
     let make = vehicle.make;
     let model = vehicle.model;
+
     // TODO: Check if the vehicle's weight is less than or equal to the truck's towing capacity
-   if( vehicle.weight >= this.towingCapacity ){
+   if( vehicle.weight <= this.towingCapacity ){
       // TODO: If it is, log that the vehicle is being towed
-      console.log(` {make} {model} is towed by truck`);
+      console.log(` ${make} ${model} is towed by truck`);
     } else {
       // TODO: If it is not, log that the vehicle is too heavy to be towed
-      console.log(` {make} {model} is not towed by truck`);
+      console.log(` ${make} ${model} is too heavy to be towed`);
     }
   }
 
