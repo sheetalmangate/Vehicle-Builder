@@ -31,7 +31,7 @@ To run this application on your local you need following tools.
 
 ## Walk-through Video     
  For the demonstration of application's functionality view the walk trough video 
- ![Vehicle Builder](Images/Vehicle-Builder-Demo.mp4)
+ [Vehicle Builder](https://app.screencastify.com/v2/manage/videos/FWoRchhaA4dO7Wg2e99q)
 
 
 ## Contributing
