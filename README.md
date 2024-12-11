@@ -24,7 +24,7 @@ To run this application on your local you need following tools.
       npm install
   ```
 
-- To run the Employee-Tracker use the command below in the command prompt
+- To run the Vehicle Builder use the command below in the command prompt
 ```
     npm run start
 ```
